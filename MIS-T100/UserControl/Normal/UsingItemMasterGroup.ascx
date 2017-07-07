@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingItemMasterGroup.ascx.vb" Inherits="MIS_T100.UsingItemMasterGroup" %>
+<asp:DropDownList ID="DL_ItemMasterGroup" runat="server"></asp:DropDownList>

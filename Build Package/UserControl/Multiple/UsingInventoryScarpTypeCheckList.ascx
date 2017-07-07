@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingInventoryScarpTypeCheckList.ascx.vb" Inherits="MIS_T100.UsingInventoryScarpTypeCheckList" %>
+<asp:CheckBoxList ID="cbInventoryScarpTypeCheckList" runat="server"></asp:CheckBoxList>

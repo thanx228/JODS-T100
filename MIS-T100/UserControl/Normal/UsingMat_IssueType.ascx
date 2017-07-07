@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingMat_IssueType.ascx.vb" Inherits="MIS_T100.UsingMat_IssueType" %>
+<asp:DropDownList ID="DL_MatIssueType" runat="server"></asp:DropDownList>

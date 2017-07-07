@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingStatusStore_IQC_checkList.ascx.vb" Inherits="MIS_T100.UsingStatusStore_IQC_checkList" %>
+<asp:CheckBoxList ID="cbStore_IQC" runat="server"></asp:CheckBoxList>

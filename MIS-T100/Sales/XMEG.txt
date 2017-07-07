@@ -1,0 +1,14 @@
+    '--Page SaleOrderChangeStus
+    '--Shearch SaleOrderChaange Tap Report / Rrfesh DataTable 
+    Private Shared SelectSOChangeLine As String = "select " & DocNo & "," & ChangeSN & "," & ItemSequence & "," & ItemNo & "," & SalesUnit & "," & SalesQty & "," & ReasonOfChange & "," & Notes & "," &
+        " case " & RowStatus & " when '1' then 'General' when '2' then 'Normal Settlement' when '3' then 'Long Settlement' else '-' end as RosStus," &
+        " " & AppointedDeliveryDate & "," & ChangeNotes & " from " & tblSaleChangeOrder & " " &
+        " where " & wStandard & " and  " & DocNo & " ='@OrderNo' and " & ChangeSN & " ='@ChangeSN'"
+    Public Shared Function GetSOChgHead(ByVal OrderNo As String, ByVal ChgVer As String)
+        Dim Oral As String = SelectSOChangeLine
+        Dim tempDataTable As New DataTable
+        Oral = Oral.Replace("@OrderNo", OrderNo)
+        Oral = Oral.Replace("@ChangeSN", ChgVer)
+        GetData.Get_DataReaderOracle(Oral, clsDBConnect.strT100ConnectionString, tempDataTable)
+        Return tempDataTable
+    End Function

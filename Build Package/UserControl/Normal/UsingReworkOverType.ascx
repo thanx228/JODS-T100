@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingReworkOverType.ascx.vb" Inherits="MIS_T100.UsingReworkOverType" %>
+<asp:DropDownList ID="DL_ReworkOverType" runat="server"></asp:DropDownList>

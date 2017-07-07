@@ -1,0 +1,36 @@
+﻿.grid-view
+{
+   padding: 0;
+   margin: 0;
+   border: 1px solid #333;
+   font-family: "Verdana, Arial, Helvetica, sans-serif, Trebuchet MS";
+   font-size: 1.0em;
+}
+
+.grid-view tr.header
+{
+   color: white;
+   background-color: #FF5600;
+   height: 25px;
+   vertical-align: middle;
+   text-align: center;
+   font-weight: bold;
+}
+
+.grid-view tr.normal
+{
+   color: black;
+   background-color: White;
+   height: 25px;
+   vertical-align: middle;
+   text-align: center;
+}
+
+.grid-view tr.alternate
+{
+   color: black;
+   background-color: #F7F6F3;
+   height: 25px;
+   vertical-align: middle;
+   text-align: center;
+}

@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingTransferType.ascx.vb" Inherits="MIS_T100.UsingTransferType" %>
+<asp:DropDownList ID="DL_TransferType" runat="server"></asp:DropDownList>

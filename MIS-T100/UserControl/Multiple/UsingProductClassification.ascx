@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingProductClassification.ascx.vb" Inherits="MIS_T100.WebUserControl1" %>
+<asp:CheckBoxList ID="cbProductClassification" runat="server"></asp:CheckBoxList>

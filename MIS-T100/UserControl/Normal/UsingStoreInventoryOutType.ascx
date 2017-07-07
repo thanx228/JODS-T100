@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingStoreInventoryOutType.ascx.vb" Inherits="MIS_T100.UsingStoreInventoryOutType" %>
+<asp:DropDownList ID="DL_StorInventoryOut" runat="server"></asp:DropDownList>

@@ -1,0 +1,126 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MIS.Master.vb" Inherits="MIS_T100.MIS" %>
+<%@ Register assembly="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" namespace="CrystalDecisions.Web" tagprefix="CR" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+<link rel="stylesheet" type="text/css" href="Site.css"/>
+    <%--<link href="TosCss/MenuCss1.css" rel="stylesheet" />--%>
+    <link href="TosCss/TableTemplates.css" rel="stylesheet" />
+        <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style2
+        {
+            width: 248px;
+            height: 83px;
+        }
+        .style3
+        {
+            width: 822px;
+            height: 83px;
+        }
+        .style4
+        {
+            width: 235px;
+            height: 29px;
+        }
+        .style5
+        {            height: 1175px;
+        }
+        </style>
+    <script src="../Scripts/jsScript.js" language="javascript" type="text/javascript"></script>
+</head>
+<body background="/Images/bg.jpg" style="width: 1136px; height: 1426px;">
+<form id="form1" runat="server">
+<div style="width:89%; height: 724px;">
+<table class="TMASTER">
+<tr>
+
+<td colspan="1"  background="/Images/logo.jpg" class="style2" 
+        style="background-repeat: no-repeat">
+
+    </td>
+
+<td colspan="1"  background="/Images/hd.jpg" class="style3" 
+        style="background-repeat: no-repeat" >
+    &nbsp;&nbsp;User : 
+    <asp:Label ID="login" runat="server" 
+        ForeColor="#0066FF" Font-Bold="True" ></asp:Label>
+
+    <br />
+&nbsp;&nbsp;Group : 
+    <asp:Label ID="lbUserGroup" runat="server" 
+        ForeColor="#0066FF" Font-Bold="True" ></asp:Label>
+
+    <br />
+    &nbsp;&nbsp;<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl ="../LoginT100.aspx" 
+        Target="_parent" >Log Out</asp:HyperLink>
+
+&nbsp;&nbsp;
+    <br />
+    <br />
+    &nbsp;
+
+    
+                <asp:Label ID="Label2" runat="server" Text="Path"></asp:Label>
+    &nbsp;
+    <asp:Label ID="lbFile" runat="server" ForeColor="#0066FF"></asp:Label>
+
+    </td>
+
+</tr>
+
+<tr>
+
+<td colspan="2"   class="style4"  style="background-image: url('/Images/btt.jpg'); background-repeat: repeat; vertical-align: middle;"  >
+        <asp:Menu ID="mnMain" runat="server" BackColor="#F7F6F3" CssClass=""   
+        DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="1.1em" 
+         Orientation="Horizontal" StaticSubMenuIndent="10px" 
+        Font-Bold="True">
+        <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" Font-Size="Medium" />
+        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" 
+            Font-Size="Medium" />
+        <DynamicMenuStyle BackColor="#F7F6F3" />
+        <DynamicSelectedStyle BackColor="#0099FF" />
+        <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+        <StaticSelectedStyle BackColor="#5D7B9D" />
+    </asp:Menu>
+   
+</tr>
+
+<tr>
+
+<td height="500px" align="justify" class="style5"colspan="2" 
+        style="vertical-align: top">
+
+<asp:UpdateProgress ID="UpdateProgress1" runat="server">
+    <ProgressTemplate>
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/loading.gif" />
+        <asp:Label ID="Label1" runat="server" ForeColor="Blue" Text="Processing......"></asp:Label>
+    </ProgressTemplate>
+
+    </asp:UpdateProgress>
+
+<asp:ContentPlaceHolder id="MainContent" runat="server">
+
+   
+</asp:ContentPlaceHolder>
+
+
+                </td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+</form>
+</body>
+
+</html>

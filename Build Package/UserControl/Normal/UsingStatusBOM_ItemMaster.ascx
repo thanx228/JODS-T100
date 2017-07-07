@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingStatusBOM_ItemMaster.ascx.vb" Inherits="MIS_T100.UsingStatusBOM_ItemMaster" %>
+<asp:DropDownList ID="DL_BOM_ItemMaster" runat="server"></asp:DropDownList>

@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingMO_TypeGenBatch.ascx.vb" Inherits="MIS_T100.UsingMO_TypeGenBatch" %>
+<asp:DropDownList ID="DL_MOtypeGenBatch" runat="server"></asp:DropDownList>

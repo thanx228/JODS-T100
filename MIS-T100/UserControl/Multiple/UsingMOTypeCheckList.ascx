@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingMOTypeCheckList.ascx.vb" Inherits="MIS_T100.UsingMOTypeCheckList" %>
+<asp:CheckBoxList ID="cbMOtypeList" runat="server"></asp:CheckBoxList>

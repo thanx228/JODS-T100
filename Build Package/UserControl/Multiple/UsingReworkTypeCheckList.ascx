@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingReworkTypeCheckList.ascx.vb" Inherits="MIS_T100.UsingReworkTypeCheckList" %>
+<asp:CheckBoxList ID="cbReworkType" runat="server"></asp:CheckBoxList>

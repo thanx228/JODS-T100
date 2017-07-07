@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingStatusMO_Normal.ascx.vb" Inherits="MIS_T100.UsingStatusMO_Normal" %>
+<asp:DropDownList ID="DL_MO_Normal" runat="server"></asp:DropDownList>

@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingStatusBOM_ItemMaster_checkList.ascx.vb" Inherits="MIS_T100.UsingStatusBOM_ItemMaster_checkList" %>
+<asp:CheckBoxList ID="cbBOM_ItemMaster" runat="server"></asp:CheckBoxList>

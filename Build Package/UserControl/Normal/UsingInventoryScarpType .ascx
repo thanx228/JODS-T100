@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingInventoryScarpType .ascx.vb" Inherits="MIS_T100.UsingInventoryScarpType" %>
+<asp:DropDownList ID="DL_UsingInventoryScarpType" runat="server"></asp:DropDownList>

@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingStatusStore_IQC.ascx.vb" Inherits="MIS_T100.UsingStatusStore_IQC" %>
+<asp:DropDownList ID="DL_Store_IQC" runat="server"></asp:DropDownList>

@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingMO_ReceiptType.ascx.vb" Inherits="MIS_T100.UsingMO_ReceiptType" %>
+<asp:DropDownList ID="DL_Receipt" runat="server"></asp:DropDownList>

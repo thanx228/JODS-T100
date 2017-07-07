@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingDept_checkList.ascx.vb" Inherits="MIS_T100.UsingDept_checkList" %>
+<asp:CheckBoxList ID="cbDeptList" runat="server"></asp:CheckBoxList>

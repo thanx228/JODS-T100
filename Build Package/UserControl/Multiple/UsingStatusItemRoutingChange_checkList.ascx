@@ -1,0 +1,2 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="UsingStatusItemRoutingChange_checkList.ascx.vb" Inherits="MIS_T100.UsingStatusItemRoutingChange_checkList" %>
+<asp:CheckBoxList ID="cbItemRoutingChange" runat="server"></asp:CheckBoxList>

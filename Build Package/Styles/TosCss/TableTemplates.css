@@ -1,0 +1,79 @@
+﻿.MenuBar {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    /*margin-left:0.2cm;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow:0.8px 0.8px 0.8px 0.8px #c1c1c1 ;
+}
+
+.StaticMenuItem {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: #1999cf;    
+    font: 13pt calibri;    
+    margin: auto;
+    vertical-align: middle;
+    background-repeat: repeat-x;
+    height: 70px;
+    text-align: center;
+    color: white; 
+}
+
+.StaticMenuItemStyle {
+    color: #ffffff;
+    padding: 20px;
+    border: solid;
+    border-width: 5px;
+    border-color: white;
+}
+
+.StaticHoverStyle {
+    background-color: #5f5f5f;
+    color: #0026ff;
+}
+
+.StaticSelectedStyle {
+    background-color: #ffe99f;
+    color: #5f5f5f;
+}
+
+.DynamicMenuItemStyle {
+    background-color: #bdeafe;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    font: 12pt calibri;
+    margin: auto;
+    border-left: 0px solid #c1c1c1;
+    border-right: 0px solid #c1c1c1;
+    border-top: 0px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    border-spacing: 0px;
+    vertical-align: middle;
+    background-repeat: repeat-x;
+    height: 40px;
+    /*margin-left:0.2cm;*/
+    /*text-align:center;*/
+    color: #5f5f5f;
+    padding: 3px;
+    width:180px;
+            background-color: #95e1e6;
+            font-weight:500;
+            /*line-snap:baseline;
+            line-height: 20px;*/
+            /*background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;*/
+            box-shadow:0.6px 0.6px 0.6px 0.6px #5f5f5f ;
+}
+.DynamicMenuItemStyle:hover {
+             background-color: Green;
+            color:#0026ff;
+}
+
+.DynamicHoverStyle {
+    background-color: #eca74c;
+    color: #ffffff;
+}
